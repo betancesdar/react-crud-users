@@ -1,0 +1,93 @@
+.App{
+    padding-bottom: 60px;
+}
+.user_container{
+    display: flex;
+    margin-top: 15px;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.form_container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #0002;
+    backdrop-filter: blur(2px);
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    z-index: 1;
+}
+
+.modal_Container{
+    width: 100%;
+    max-width: 200px;
+    height: 100%;
+    max-height: 150px;
+    background-color: #0002;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    z-index: 1;
+}
+
+.modal_title{
+    font-size: 15px;
+    color: red;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.modal_btn{
+    width: 100%;
+    max-width: 200px;
+    padding: 15px;
+    background-color: rgb(255, 82, 82);
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.app-title_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.app_title:hover{
+    color:rgb(255, 82, 82);
+    transform: scale(1.05);
+    transition: transform 150ms ease;
+}
+.disable_form{
+    display: none;
+}
+
+.app_btn{
+    width: 100%;
+    max-width: 200px;
+    padding: 15px;
+    background-color: rgb(255, 82, 82);
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 15px;
+   
+}
